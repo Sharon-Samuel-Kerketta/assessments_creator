@@ -1,0 +1,10 @@
+## environments
+env
+
+# cache
+.vscode
+**/__pycache__
+**/.pytest_cache
+
+# data files
+data
