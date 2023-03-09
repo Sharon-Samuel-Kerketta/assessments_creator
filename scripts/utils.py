@@ -15,7 +15,7 @@ def get_inputs() -> tuple[str,str] :
 
     output_file = input("Enter the filename of the output docx file : ")
 
-    return form_link, output_file
+    return form_link, sanitize_filename(output_file)
 
 
 def sanitize_filename(filename:str) -> str:

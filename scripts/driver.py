@@ -46,7 +46,6 @@ def create_docx(questions:list, options:list, output_file:str = "assessment.docx
             doc.add_paragraph(option)
         doc.add_paragraph("\n")
 
-    output_file = sanitize_filename(output_file)
     os.makedirs("data", exist_ok=True)
     doc.save(os.path.join(os.path.curdir, "data", output_file))
 
