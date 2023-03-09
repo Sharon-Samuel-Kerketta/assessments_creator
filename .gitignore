@@ -5,6 +5,7 @@ env
 .vscode
 **/__pycache__
 **/.pytest_cache
+.DS_Store
 
 # data files
 data
